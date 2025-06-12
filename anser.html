@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css2.css" />
+    <script src="js.js"></script>
+  </head>
+  <body>
+    <div class="bio">
+      <header>
+        <div class="logo">
+          <div class="im"><img src="LOGO.PNG" alt=""></div>
+          <h1>16 personalities</h1>
+        </div>
+        <nav>
+          <a href="acc.html">personalities type</a>
+          <a href="anser.html">test of personalities</a>
+        </nav>
+      </header>
+    </div>
+    <!----------------------------------------------------------------------------- cadre --------------------------------------------------------------------------->
+    <div class="container">
+  <!------------------------------------------------------------------------------- Row 1 --------------------------------------------------------------------------->
+  <div class="row">
+    <div class="box green" data-value="E" onclick="selectBox(this)">
+      <ul>
+        <li>are you a person who wants to configure to overcome bad moods such as stress or pressure</li>
+        <li>Someone who is easy to meet new people</li>
+        <li>You like gatherings even with people you don't know</li>
+      </ul>
+    </div>
+    <div class="box green" data-value="I" onclick="selectBox(this)">
+      <ul>
+        <li>Are you someone who needs to be with himself to overcome bad moods such as stress or pressure</li>
+        <li>Someone who does not initiate charity</li>
+        <li>you Prefer to go out with a few people you know</li>
+        <li>you would rather read, watch a movie, or play a video game than appear at a social event</li>
+      </ul>
+    </div>
+  </div>
+
+  <!------------------------------------------------------------------------------- Row 2 --------------------------------------------------------------------------->
+  <div class="row">
+    <div class="box purple" data-value="S" onclick="selectBox(this)">
+      <ul>
+        <li>Someone who notices details</li>
+        <li>you Prefer to do the things on the traditional way</li>
+        <li>Most of the time you focus with what is happening around you and do not use your imagination</li>
+      </ul>
+    </div>
+    <div class="box purple" data-value="N" onclick="selectBox(this)">
+      <ul>
+        <li>Somewhat curious person</li>
+        <li>A person with a wide imagination</li>
+        <li>you like to try new things</li>
+      </ul>
+    </div>
+  </div>
+
+  <!------------------------------------------------------------------------------- Row 3 --------------------------------------------------------------------------->
+  <div class="row">
+    <div class="box blue" data-value="T" onclick="selectBox(this)">
+      <ul>
+        <li>Telling the truth is more important than being considerate of the feelings of the person in front of you</li>
+        <li>Your decisions are based on facts</li>
+        <li>Before making any decision, you consider all the advantages and disadvantages</li>
+      </ul>
+    </div>
+    <div class="box blue" data-value="F" onclick="selectBox(this)">
+      <ul>
+        <li>Your decisions are based on your feelings and psychological comfort</li>
+        <li>Before making any decision, you make sure that it will not disturb or harm anyone</li>
+      </ul>
+    </div>
+  </div>
+
+<!------------------------------------------------------------------------------- Row 4 --------------------------------------------------------------------------->
+  <div class="row">
+    <div class="box yellow" data-value="J" onclick="selectBox(this)">
+      <ul>
+        <li>You Prefer to have advance planning</li>
+        <li>You Take care of the system and appointments</li>
+        <li>You don't like surprises and sudden change bothers you</li>
+      </ul>
+    </div>
+    <div class="box yellow" data-value="P" onclick="selectBox(this)">
+      <ul>
+        <li>,you Don't plan your day and you don't make plans</li>
+        <li>,You don't have a problem with surprises</li>
+        <li>,You hate being bound by rules and plans</li>
+      </ul>
+    </div>
+  </div>
+
+  <button onclick="submitResult()">Submit</button>
+</div>
+<script src="js.js"></script>
+  </body>
+</html>

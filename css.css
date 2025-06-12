@@ -1,0 +1,230 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f7f7f7;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: white;
+  border-radius: 0 0 40px 40px;
+  height: 5%;
+  max-height: 10%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1px;
+}
+.im img{
+  width: 80%;
+}
+nav a {
+  margin-left: 0rem;
+  margin-right: 2rem;
+  text-decoration: none;
+  color: rgb(72, 74, 69);
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+  align-items: center;
+}
+nav{
+  margin-right: 12rem;
+}
+.banner {
+  background-color: #d9e8f6;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 0 0 40px 40px;
+}
+.bio{
+  background-color: #d9e8f6;
+  border-radius: 0 0 40px 40px;
+}
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
+.intj img{
+  margin-top: 2.5rem;
+  width: 100%;
+  height: 100%;}
+ .esfj img{
+  margin-top: 4.8rem;
+  }
+   
+/*--------------------------------- analyst part-----------------------------------*/
+.container {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1 {
+  color: #a18ded;
+  margin-bottom: 40px;
+}
+
+.card-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #d8cbf6;
+  border-radius: 20px;
+  padding-bottom: 10px;
+  gap: 60px;
+}
+
+.card {
+  background-color: transparent;
+  padding: 10px;
+  width: 150px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h2 {
+  font-size: 18px;
+  color: #a18ded;
+  margin: 10px 0 5px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #333;
+}
+/*-----------------------------------------------------------piplomays part------------------------------------------------------------*/
+.container1 {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.d3 {
+  color: #b0db9c;
+  margin-bottom: 50px;
+}
+
+.card-group1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #ddf6d2;
+  border-radius: 20px;
+  padding-bottom: 10px;
+  gap: 60px;
+}
+
+.card1 {
+  background-color: transparent;
+  padding: 10px;
+  width: 150px;
+}
+
+.card1 img {
+  width: 100%;
+  height: auto;
+}
+
+.d1 {
+  font-size: 18px;
+  color: #b0db9c;
+  margin: 10px 0 5px;
+}
+
+.d2 {
+  font-size: 14px;
+  color: #333;
+}
+/*-----------------------------------------------------sentienls part-------------------------------------------------------*/
+.container2 {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.s1 {
+  color: #3b6790;
+  margin-bottom: 50px;
+}
+
+.card-group2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #9ec6f3;
+  border-radius: 20px;
+  padding-bottom: 10px;
+  gap: 60px;
+}
+
+.card2 {
+  background-color: transparent;
+  padding: 10px;
+  width: 150px;
+}
+
+.card2 img {
+  width: 100%;
+  height: auto;
+}
+
+.s2 {
+  font-size: 18px;
+  color: #3b6790;
+  margin: 10px 0 5px;
+}
+
+.s3 {
+  font-size: 14px;
+  color: #333;
+}
+/*---------------------------------------------------------------------------Explorers part----------------------------------------------------------------------*/
+.container3 {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.e1 {
+  color: #dbbe2f;
+  margin-bottom: 50px;
+}
+
+.card-group3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #fcffc1;
+  border-radius: 20px;
+  padding-bottom: 10px;
+  gap: 60px;
+}
+
+.card3 {
+  background-color: transparent;
+  padding: 10px;
+  width: 150px;
+}
+
+.card3 img {
+  width: 100%;
+  height: auto;
+}
+
+.e2 {
+  font-size: 18px;
+  color: #dbbe2f;
+  margin: 10px 0 5px;
+}
+
+.e3 {
+  font-size: 14px;
+  color: #333;
+}
