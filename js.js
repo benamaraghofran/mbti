@@ -6,10 +6,8 @@ function selectBox(element) {
                   : element.classList.contains('blue') ? 'blue'
                   : 'yellow';
 
-  // Remove previous selection in that category
   document.querySelectorAll(`.box.${category}`).forEach(el => el.classList.remove('selected'));
 
-  // Add new selection
   element.classList.add('selected');
   selected[category] = element.getAttribute('data-value');
 }
@@ -19,12 +17,8 @@ function submitResult() {
     alert("Please select one option from each color group (green, purple, blue, yellow).");
     return;
   }
-
-  // Build MBTI type string
-  const result = selected.green + selected.purple + selected.blue + selected.yellow; // e.g., INTJ
-
-  // Redirect to lowercase version of result page
-  const page = result.toLowerCase() + '.html'; // => intj.html, estp.html, etc.
+  const result = selected.green + selected.purple + selected.blue + selected.yellow;
+  const page = result.toLowerCase() + '.html'; 
 
   window.location.href = page;
 }
